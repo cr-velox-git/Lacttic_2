@@ -391,7 +391,6 @@ public class MainActivity extends AppCompatActivity {
                             Toast.makeText(this, "Data Saved", Toast.LENGTH_SHORT).show();
                             Intent intent = new Intent(this, WeatherActivity.class);
                             startActivity(intent);
-                            finish();
 
                         }else{
                             Toast.makeText(this, "enter Proper Address Line 2", Toast.LENGTH_SHORT).show();
